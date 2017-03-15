@@ -12,7 +12,13 @@ public class Client {
 		n1.imprimir();
 		System.out.println("\n");
 		
-		n1 = new NumeroParenteses(numero);
-		n1.imprimir();
+		//Numero com parenteses envolvido com chaves
+		Numero n2 = new NumeroChaves(n1);
+		n2.imprimir();
+		System.out.println("\n");
+		
+		//Numero com parenteses
+		Numero n3 = new NumeroParenteses(numero);
+		n3.imprimir();
 	}
 }

@@ -24,7 +24,7 @@ public class NumeroUm implements Numero{
 
 	@Override
 	public void imprimir() {
-		System.out.println(numero);
+		System.out.print(numero);
 		
 	}
 
